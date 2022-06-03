@@ -24,12 +24,12 @@ namespace NewGame.Entities
         public int numberOfFrame;
 
         public int sizeX, sizeY;
-        public int strengthOfRod = data.playerRod;
+        public int strengthOfRod = 5;
 
         public bool isTalking, isFishing, isMoving;
-        public int countOfMoney = data.playerMoney;
+        public int countOfMoney = 0;
 
-        public int countOffishes = data.playerFish;
+        public int countOffishes = 0;
 
         public Image sprite = Resource1.character2;
 
